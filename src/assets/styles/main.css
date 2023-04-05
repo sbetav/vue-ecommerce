@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700;800;900&display=swap");
+@import url(./reset.css);
+@import url(./normalize.css);
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html{
+  scroll-padding-top: 72px;
+  scroll-behavior: smooth;
+}
+
+@layer components {
+  .screenHeight {
+    min-height: calc(100vh - 134px);
+  }
+
+  .btn {
+    @apply px-4 py-2 rounded-md font-semibold;
+  }
+
+  .btn-outline {
+    @apply border-2 border-black ;
+  }
+
+  .btn-filled {
+    @apply bg-black text-white border border-black;
+  }
+}
