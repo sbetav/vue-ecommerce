@@ -1,16 +1,15 @@
-# ecommerce
+<h1 align="center">Porfolio Vue</h1>
 
-This template should help get you started developing with Vue 3 in Vite.
+[![Ecommerce Vue][product-screenshot]](https://vue-ecommerce-seven.vercel.app/)
 
-## Recommended IDE Setup
+<a align="center" href="https://vue-ecommerce-seven.vercel.app/">View Demo</a>
 
-[VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### Built With
 
-## Customize configuration
+- [![Vue][vue.js]][vue-url]
+- [![Tailwind][tailwindcss]][tailwind-url]
 
-See [Vite Configuration Reference](https://vitejs.dev/config/).
-
-## Project Setup
+### Project Setup
 
 ```sh
 npm install
@@ -27,3 +26,20 @@ npm run dev
 ```sh
 npm run build
 ```
+
+### Contact
+
+Santiago Betancur - santibeta82@gmail.com
+
+Project Link: [https://github.com/sbetav/vue-ecommerce](https://github.com/sbetav/vue-ecommerce)
+
+### Acknowledgments
+
+- [Hero Icons](https://heroicons.com/) - Used for icons
+- [Pinia](https://pinia.vuejs.org/) - Used for store
+
+[product-screenshot]: src/assets/img/ecommerce.webp
+[vue.js]: https://img.shields.io/badge/Vue.js-35495E?style=for-the-badge&logo=vuedotjs&logoColor=4FC08D
+[vue-url]: https://vuejs.org/
+[tailwindcss]: https://img.shields.io/static/v1?style=for-the-badge&message=Tailwind+CSS&color=222222&logo=Tailwind+CSS&logoColor=06B6D4&label=
+[tailwind-url]: https://tailwindcss.com/
