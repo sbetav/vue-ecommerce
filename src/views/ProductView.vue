@@ -48,6 +48,10 @@
 
             </div>
         </div>
+        <div v-else-if="notFound" class="text-center">
+            <h1 class="font-bold text-7xl">404</h1>
+            <p class="text-xl">Product not found</p>
+        </div>
         <div v-else>
             <p class="text-xl">Loading...</p>
         </div>
@@ -74,6 +78,7 @@ const props = defineProps(['id'])
 const cartStore = useCartStore()
 
 const product = ref(null)
+const notFound = ref(false)
 const quantity = ref(1)
 
 const getRating = () => {
@@ -106,7 +111,12 @@ const addToCart = (product, quantity) => {
 }
 
 onMounted(async () => {
-    const response = await fetch(`https://fakestoreapi.com/products/${props.id}`)
-    product.value = await response.json()
+    try {
+        const response = await fetch(`https://fakestoreapi.com/products/${props.id}`)
+        product.value = await response.json()
+    } catch (error) {
+        notFound.value = true
+    }
 })
+
 </script>
