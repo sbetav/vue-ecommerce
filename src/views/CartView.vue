@@ -46,9 +46,6 @@
 
         <button class="btn btn-filled w-full mt-4 cursor-not-allowed bg-gray-300 border-gray-300" disabled>Pay With
           Stripe</button>
-        <p class="text-sm text-center mt-2 italic text-gray-600">I'll implement stripe checkout when <a
-            href="https://docs.vuestripe.com/vue-stripe/v/vue-3/" class="underline" target="_blank">Vue Stripe</a> is
-          available for Vue 3</p>
       </div>
 
 
