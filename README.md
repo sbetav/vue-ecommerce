@@ -1,4 +1,4 @@
-<h1 align="center">Porfolio Vue</h1>
+<h1 align="center">Vue Ecommerce</h1>
 
 [![Ecommerce Vue][product-screenshot]](https://vue-ecommerce-seven.vercel.app/)
 
